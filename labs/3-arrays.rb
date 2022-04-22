@@ -12,6 +12,20 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+#alyssa
+alyssa_list = ["apples", "nuts", "kale"]
+
+#matt 
+matt_list = ["beer", "bacon", "milk", "apples"]
+
+# combine the two lists together
+shared_list = alyssa_list + matt_list
+sorted_list = shared_list.sort
+unique_sorted_list = sorted_list.uniq
+puts shared_list
+
+puts (alyssa_list + matt_list).sort.uniq
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
